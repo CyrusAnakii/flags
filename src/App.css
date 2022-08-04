@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Jumbo {
+  margin: 0;
+  padding: 20px;
+  background-color: gray;
+  color: blue;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align: center;
+
+}
+.CenterThis {
+  margin: 0;
+  margin-top: 5%;
+  position: absolute;
+  left: 45%;
+}
+.backgroundPurple {
+  background-color: purple;
+  text-align: center;
+  font-weight: bold;
+}
+.backgroundTeal {
+  background-color: teal;
+  text-align: center;
+  font-weight: bold;
+}
+.backgroundOrange {
+  background-color: orange;
+  text-align: center;
+  font-weight: bold;
+}
+img {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px
+}
+.Space {
+  margin-top: 10%;
+}
+.CenterThisButton {
+  text-align: center;
+}
+.WhiteOut {
+  font-weight: bold;
+  font-size: larger;
+  color: white
+}
+.RedText {
+  font-weight: bold;
+  font-size: larger;
+  color: red;
+  background-color: black;
+}
+.OrangeText {
+  font-weight: bold;
+  font-size: larger;
+  color: orange;
+  background-color: black;
+}
+.YellowText {
+  font-weight: bold;
+  font-size: larger;
+  color: yellow;
+  background-color: black;
+}
+.GreenText {
+  font-weight: bold;
+  font-size: larger;
+  color: green;
+  background-color: black;
+}
+.BlueText {
+  font-weight: bold;
+  font-size: larger;
+  color: blue;
+  background-color: black;
+}
+.PurpleText {
+  font-weight: bold;
+  font-size: larger;
+  color: purple;
+  background-color: black;
+}
+.PinkText {
+  font-weight: bold;
+  font-size: larger;
+  color: pink;
+  background-color: black;
+}
+.BlackText {
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+  background-color: white;
+}
+.WhiteText {
+  font-weight: bold;
+  font-size: larger;
+  color: White;
+  background-color: black
+}
