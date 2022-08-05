@@ -19,10 +19,82 @@ function HomePage() {
 
   useEffect(() => {
     if (redState === false) {
-      document.querySelector("#red").innerHTML = "NOT-Red";
+      document.querySelector("#red").innerHTML = "";
     }
     if (redState) {
       document.querySelector("#red").innerHTML = "Red";
+    }
+    if (orangeState === false) {
+      document.querySelector("#orange").innerHTML = "";
+    }
+    if (orangeState) {
+      document.querySelector("#orange").innerHTML = "Orange";
+    }
+    if (yellowState === false) {
+      document.querySelector("#yellow").innerHTML = "";
+    }
+    if (yellowState) {
+      document.querySelector("#yellow").innerHTML = "Yellow";
+    }
+    if (greenState === false) {
+      document.querySelector("#green").innerHTML = "";
+    }
+    if (greenState) {
+      document.querySelector("#green").innerHTML = "Green";
+    }
+    if (blueState === false) {
+      document.querySelector("#blue").innerHTML = "";
+    }
+    if (blueState) {
+      document.querySelector("#blue").innerHTML = "Blue";
+    }
+    if (purpleState === false) {
+      document.querySelector("#purple").innerHTML = "";
+    }
+    if (purpleState) {
+      document.querySelector("#purple").innerHTML = "Purple";
+    }
+    if (pinkState === false) {
+      document.querySelector("#pink").innerHTML = "";
+    }
+    if (pinkState) {
+      document.querySelector("#pink").innerHTML = "Pink";
+    }
+    if (blackState === false) {
+      document.querySelector("#black").innerHTML = "";
+    }
+    if (blackState) {
+      document.querySelector("#black").innerHTML = "Black";
+    }
+    if (whiteState === false) {
+      document.querySelector("#white").innerHTML = "";
+    }
+    if (whiteState) {
+      document.querySelector("#white").innerHTML = "White";
+    }
+    if (stripesState === false) {
+      document.querySelector("#stripes").innerHTML = "";
+    }
+    if (stripesState) {
+      document.querySelector("#stripes").innerHTML = "Stripes";
+    }
+    if (textState === false) {
+      document.querySelector("#text").innerHTML = "";
+    }
+    if (textState) {
+      document.querySelector("#text").innerHTML = "Text";
+    }
+    if (animalState === false) {
+      document.querySelector("#animal").innerHTML = "";
+    }
+    if (animalState) {
+      document.querySelector("#animal").innerHTML = "Animal";
+    }
+    if (symbolState === false) {
+      document.querySelector("#symbol").innerHTML = "";
+    }
+    if (symbolState) {
+      document.querySelector("#symbol").innerHTML = "Symbol";
     }
   });
 
