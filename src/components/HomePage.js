@@ -99,7 +99,7 @@ function HomePage() {
   });
 
   return (
-    <div>
+    <div className="Indent">
       <div className="container-fluid Jumbo">
         <p>
           You ever see a flag that you just can't place and other flag
@@ -283,7 +283,13 @@ function HomePage() {
       <div className="CenterThis">
         <Button onClick={Finder}>Find Me My Flag!</Button>
       </div>
-      <div className="Space" />
+      <div className="Space">
+        <p>
+          Clicking on a flag below will bring you to the wikipedia article for
+          that flag's country!
+        </p>
+      </div>
+      <div className="row" id="space"></div>
     </div>
   );
 }
