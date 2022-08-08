@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Component } from "react";
 import { Dropdown, Button } from "react-bootstrap";
 import Finder from "../components/Finder";
+import { createRoot } from "react-dom/client";
 
 function HomePage() {
   const [redState, setRedState] = useState(false);
@@ -281,7 +282,27 @@ function HomePage() {
         </div>
       </div>
       <div className="CenterThis">
-        <Button onClick={Finder}>Find Me My Flag!</Button>
+        <Button
+          onClick={() =>
+            Finder(
+              redState,
+              orangeState,
+              yellowState,
+              greenState,
+              blueState,
+              purpleState,
+              pinkState,
+              blackState,
+              whiteState,
+              stripesState,
+              textState,
+              animalState,
+              symbolState
+            )
+          }
+        >
+          Find Me My Flag!
+        </Button>
       </div>
       <div className="Space">
         <p>
@@ -293,4 +314,5 @@ function HomePage() {
     </div>
   );
 }
+
 export default HomePage;

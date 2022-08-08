@@ -1,7 +1,7 @@
 const flagArray = [
   {
     name: "Roman Empire",
-    colors: ["Red", "Purple", "Gold"],
+    colors: ["Red", "Puple", "Gold"],
     design: ["animal", "text"],
     image: require("./images/RomanEmpire1.png"),
     link: "https://en.wikipedia.org/wiki/Roman_Empire",
