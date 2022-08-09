@@ -1,8 +1,6 @@
+import React from "react";
 import { Card } from "react-bootstrap";
 import flagArray from "../MasterList";
-import { createRoot } from "react-dom/client";
-import HomePage from "./HomePage";
-import { useEffect } from "react";
 
 //NOTE TO SELF: VERY IMPORTANT TO USE VAR FOR RESULTS
 function Finder(
@@ -148,7 +146,8 @@ function Finder(
   const stepTwelve = stepEleven.filter((element) =>
     symbolResults.includes(element)
   );
-  const flagParade = stepTwelve.map((result) => (
+
+  return stepTwelve.map((result) => (
     <div className="col-1">
       <Card key={result.id}>
         <Card.Link href={result.link}>
@@ -158,10 +157,6 @@ function Finder(
       </Card>
     </div>
   ));
-
-  const container = document.getElementById("space");
-  const root = createRoot(container);
-  root.render(flagParade);
 }
 
 export default Finder;
