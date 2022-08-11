@@ -125,8 +125,8 @@ function HomePage() {
         <div className="col-6 backgroundOrange">
           <p>
             Next choose the primary design features on the flag. Does it have
-            stripes? An animal? Does it have some sort of text displayed
-            prominently?
+            stripes? An animal? (People count as animals!) Does it have some
+            sort of text displayed prominently?
           </p>
         </div>
       </div>
@@ -189,48 +189,30 @@ function HomePage() {
           </Dropdown>
         </div>
       </div>
-      <div className="row">
-        <div className="col-6">
-          <p>
-            Please keep in mind that the more colors chosen, the less flags will
-            show. It's best to keep to two or three colors maximum. Just worry
-            about choosing the the flag's primary colors, not every color on it.
-            With that said, these are the colors you are currently searching
-            for:
-          </p>
-        </div>
-        <div className="col-6">
-          <p>
-            And these are the design features you are searching for! Again, try
-            to keep this to one or two design features. If you don't find what
-            you're looking for the first time, try removing a color or design
-            feature that might not seem as prevalent as the rest!
-          </p>
-        </div>
-      </div>
+
       <div className="row">
         <div className="col-1">
-          <p id="red" className="RedText">
+          <p id="red" className="BlackText">
             Red
           </p>
         </div>
         <div className="col-1">
-          <p id="orange" className="OrangeText">
+          <p id="orange" className="BlackText">
             Orange
           </p>
         </div>
         <div className="col-1">
-          <p id="yellow" className="YellowText">
+          <p id="yellow" className="BlackText">
             Yellow
           </p>
         </div>
         <div className="col-1">
-          <p id="green" className="GreenText">
+          <p id="green" className="BlackText">
             Green
           </p>
         </div>
         <div className="col-1">
-          <p id="blue" className="BlueText">
+          <p id="blue" className="BlackText">
             Blue
           </p>
         </div>
@@ -238,34 +220,34 @@ function HomePage() {
           <p></p>
         </div>
         <div className="col-1">
-          <p id="stripes" className="WhiteText">
+          <p id="stripes" className="BlackText">
             Stripes
           </p>
         </div>
         <div className="col-1">
-          <p id="text" className="WhiteText">
+          <p id="text" className="BlackText">
             Text
           </p>
         </div>
         <div className="col-1">
-          <p id="animal" className="WhiteText">
+          <p id="animal" className="BlackText">
             Animal
           </p>
         </div>
         <div className="col-1">
-          <p id="symbol" className="WhiteText">
+          <p id="symbol" className="BlackText">
             Symbol
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col-1">
-          <p id="purple" className="PurpleText">
+          <p id="purple" className="BlackText">
             Purple
           </p>
         </div>
         <div className="col-1">
-          <p id="pink" className="PinkText">
+          <p id="pink" className="BlackText">
             Pink
           </p>
         </div>
@@ -275,7 +257,7 @@ function HomePage() {
           </p>
         </div>
         <div className="col-1">
-          <p id="white" className="WhiteText">
+          <p id="white" className="BlackText">
             White
           </p>
         </div>
