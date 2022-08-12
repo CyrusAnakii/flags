@@ -4,6 +4,7 @@ import flagArray from "../MasterList";
 
 //NOTE TO SELF: VERY IMPORTANT TO USE VAR FOR RESULTS
 function Finder(
+  searchState,
   redState,
   orangeState,
   yellowState,
@@ -146,17 +147,21 @@ function Finder(
   const stepTwelve = stepEleven.filter((element) =>
     symbolResults.includes(element)
   );
-
-  return stepTwelve.map((result) => (
-    <div className="col-1">
-      <Card key={result.id}>
-        <Card.Link href={result.link}>
-          <Card.Img src={result.image} className="mx-auto" />
-          <Card.Title className="text-center">{result.name}</Card.Title>
-        </Card.Link>
-      </Card>
-    </div>
-  ));
+  if (searchState) {
+    return stepTwelve.map((result) => (
+      <div className="col-1">
+        <Card key={result.id}>
+          <Card.Link href={result.link}>
+            <Card.Img src={result.image} className="mx-auto" />
+            <Card.Title className="text-center">{result.name}</Card.Title>
+          </Card.Link>
+        </Card>
+      </div>
+    ));
+  }
+  if (searchState === false) {
+    return "";
+  }
 }
 
 export default Finder;
