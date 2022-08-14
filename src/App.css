@@ -40,7 +40,7 @@
 .Jumbo {
   margin: 0;
   padding: 20px;
-  background-color: navy;
+  background-color: rgb(13, 110, 253);
   color: white;
   font-weight: bolder;
   font-size: x-large;
@@ -52,24 +52,6 @@
   margin-top: 5%;
   position: absolute;
   left: 45%;
-}
-.backgroundPurple {
-  background-color: purple;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-}
-.backgroundTeal {
-  background-color: teal;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-}
-.backgroundOrange {
-  background-color: orange;
-  color: white;
-  text-align: center;
-  font-weight: bold;
 }
 img {
   margin-top: 10px;
@@ -90,59 +72,11 @@ img {
   font-size: larger;
   color: white
 }
-.RedText {
-  font-weight: bold;
-  font-size: larger;
-  color: red;
-  background-color: black;
-}
-.OrangeText {
-  font-weight: bold;
-  font-size: larger;
-  color: orange;
-  background-color: black;
-}
-.YellowText {
-  font-weight: bold;
-  font-size: larger;
-  color: yellow;
-  background-color: black;
-}
-.GreenText {
-  font-weight: bold;
-  font-size: larger;
-  color: green;
-  background-color: black;
-}
-.BlueText {
-  font-weight: bold;
-  font-size: larger;
-  color: blue;
-  background-color: black;
-}
-.PurpleText {
-  font-weight: bold;
-  font-size: larger;
-  color: purple;
-  background-color: black;
-}
-.PinkText {
-  font-weight: bold;
-  font-size: larger;
-  color: pink;
-  background-color: black;
-}
 .BlackText {
   font-weight: bold;
   font-size: larger;
   color: black;
   background-color: aqua;
-}
-.WhiteText {
-  font-weight: bold;
-  font-size: larger;
-  color: White;
-  background-color: black
 }
 .Indent {
   margin-left: .5%;
@@ -170,4 +104,8 @@ img {
   font-weight: bold;
   text-align: center;
   margin-top: 1%;
+}
+.TextCenter{
+  text-align: center;
+  font-weight: bold;
 }

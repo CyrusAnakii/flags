@@ -111,21 +111,21 @@ function HomePage() {
             flags!
           </p>
         </div>
-        <div className="row backgroundPurple">
+        <div className="row TextCenter">
           <p>
             Please describe the flag. Don't worry if you can't describe all the
             features, just describe the most prominent ones.
           </p>
         </div>
         <div className="row">
-          <div className="col-6 backgroundTeal">
+          <div className="col-6 TextCenter">
             <p>
               First choose the primary colors the flag is. If possible, try to
               limit your choices to two or three colors at most. The more colors
               you choose the less likely a match will be found.
             </p>
           </div>
-          <div className="col-6 backgroundOrange">
+          <div className="col-6 TextCenter">
             <p>
               Next choose the primary design features on the flag. Does it have
               stripes? An animal? (People count as animals!) Does it have some
