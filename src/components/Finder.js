@@ -148,16 +148,27 @@ function Finder(
     symbolResults.includes(element)
   );
   if (searchState) {
-    return stepTwelve.map((result) => (
-      <div className="col-1">
-        <Card key={result.id}>
-          <Card.Link href={result.link}>
-            <Card.Img src={result.image} className="mx-auto" />
-            <Card.Title className="text-center">{result.name}</Card.Title>
-          </Card.Link>
-        </Card>
-      </div>
-    ));
+    if (stepTwelve.length === 0) {
+      return (
+        <div>
+          <p className="EmboldenSpace">
+            Sorry! No flags match these parameters! Try changing or even just
+            removing a parameter!
+          </p>
+        </div>
+      );
+    } else {
+      return stepTwelve.map((result) => (
+        <div className="col-1">
+          <Card key={result.id}>
+            <Card.Link href={result.link}>
+              <Card.Img src={result.image} className="mx-auto" />
+              <Card.Title className="text-center">{result.name}</Card.Title>
+            </Card.Link>
+          </Card>
+        </div>
+      ));
+    }
   }
   if (searchState === false) {
     return "";

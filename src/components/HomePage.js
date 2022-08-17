@@ -98,6 +98,22 @@ function HomePage() {
       document.querySelector("#symbol").innerHTML = "Symbol";
     }
   });
+  function resetFunction() {
+    setSearchState(false);
+    setRedState(false);
+    setOrangeState(false);
+    setYellowState(false);
+    setGreenState(false);
+    setBlueState(false);
+    setPurpleState(false);
+    setPinkState(false);
+    setBlackState(false);
+    setWhiteState(false);
+    setStripesState(false);
+    setAnimalState(false);
+    setTextState(false);
+    setSymbolState(false);
+  }
 
   return (
     <div className="background">
@@ -273,6 +289,7 @@ function HomePage() {
             <Button onClick={() => setSearchState(true)}>
               Search Those Flags!
             </Button>
+            <Button onClick={resetFunction}>Reset All Parameters!</Button>
           </div>
         </div>
         <div className="row InfoDrone">
