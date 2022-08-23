@@ -159,7 +159,7 @@ function Finder(
       );
     } else {
       return stepTwelve.map((result) => (
-        <div className="col-1">
+        <div className="col-1 bottomSpace">
           <Card key={result.id}>
             <Card.Link href={result.link}>
               <Card.Img src={result.image} className="mx-auto" />
